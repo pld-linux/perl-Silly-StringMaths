@@ -41,7 +41,7 @@ liczbach ca³kowitych, zamiast liczb wykorzystuj±c ³añcuchy.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %install
