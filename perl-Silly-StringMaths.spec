@@ -43,7 +43,7 @@ liczbach ca³kowitych, zamiast liczb wykorzystuj±c ³añcuchy.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
