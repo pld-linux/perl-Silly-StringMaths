@@ -3,8 +3,8 @@
 %bcond_without	tests	# don't perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define		pdir	Silly
-%define		pnam	StringMaths
+%define	pdir	Silly
+%define	pnam	StringMaths
 Summary:	Silly::StringMaths Perl module
 Summary(cs):	Modul Silly::StringMaths pro Perl
 Summary(da):	Perlmodul Silly::StringMaths
