@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Silly
 %define	pnam	StringMaths
-Summary:	Silly-StringMaths perl module
-Summary(pl):	Modu³ perla Silly-StringMaths
+Summary:	Silly::StringMaths perl module
+Summary(pl):	Modu³ perla Silly::StringMaths
 Name:		perl-Silly-StringMaths
 Version:	0.13
 Release:	8
@@ -15,11 +15,11 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Silly-StringMaths provides support for basic integer mathematics,
+Silly::StringMaths provides support for basic integer mathematics,
 using strings rather than numbers.
 
 %description -l pl
-Silly-StringMaths umo¿liwia wykonywanie operacji matematycznych na
+Silly::StringMaths umo¿liwia wykonywanie operacji matematycznych na
 liczbach ca³kowitych, zamiast liczb wykorzystuj±c ³añcuchy.
 
 %prep
