@@ -4,10 +4,10 @@ Summary(pl):	Modu³ perla Silly-StringMaths
 Name:		perl-Silly-StringMaths
 Version:	0.13
 Release:	3
-Copyright:	GPL
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Silly/Silly-StringMaths-%{version}.tar.gz
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Silly/Silly-StringMaths-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005_03-14
 %requires_eq	perl
@@ -15,12 +15,12 @@ Requires:	%{perl_sitearch}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Silly-StringMaths provides support for basic integer mathematics, using 
-strings rather than numbers. 
+Silly-StringMaths provides support for basic integer mathematics,
+using strings rather than numbers.
 
 %description -l pl
-Silly-StringMaths umo¿liwia wykonywanie operacji matematycznych na liczbach
-ca³kowitych, zamiast liczb wykorzystuj±c ³añcuchy.
+Silly-StringMaths umo¿liwia wykonywanie operacji matematycznych na
+liczbach ca³kowitych, zamiast liczb wykorzystuj±c ³añcuchy.
 
 %prep
 %setup -q -n Silly-StringMaths-%{version}
