@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Silly
 %define	pnam	StringMaths
-%include	/usr/lib/rpm/macros.perl
 Summary:	Silly-StringMaths perl module
 Summary(pl):	Modu³ perla Silly-StringMaths
 Name:		perl-Silly-StringMaths
 Version:	0.13
-Release:	7
-
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -24,7 +23,7 @@ Silly-StringMaths umo¿liwia wykonywanie operacji matematycznych na
 liczbach ca³kowitych, zamiast liczb wykorzystuj±c ³añcuchy.
 
 %prep
-%setup -q -n Silly-StringMaths-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
