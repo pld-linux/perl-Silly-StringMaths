@@ -20,11 +20,11 @@ Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Silly::StringMaths
 Summary(zh_CN):	Silly::StringMaths Perl Ä£¿é
 Name:		perl-Silly-StringMaths
 Version:	0.13
-Release:	9
+Release:	10
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl >= 5.6
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -41,7 +41,8 @@ liczbach ca³kowitych, zamiast liczb wykorzystuj±c ³añcuchy.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make}
 
 %install
@@ -55,5 +56,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
-%{perl_sitelib}/Silly
+%{perl_vendorlib}/Silly
 %{_mandir}/man3/*
