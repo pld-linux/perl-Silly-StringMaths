@@ -3,7 +3,7 @@ Summary:	Silly-StringMaths perl module
 Summary(pl):	Modu³ perla Silly-StringMaths
 Name:		perl-Silly-StringMaths
 Version:	0.13
-Release:	4
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
