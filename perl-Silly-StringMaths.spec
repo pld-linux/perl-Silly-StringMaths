@@ -24,7 +24,7 @@ Summary(uk):	Модуль для Perl Silly::StringMaths
 Summary(zh_CN):	Silly::StringMaths Perl дё©И
 Name:		perl-Silly-StringMaths
 Version:	0.13
-Release:	10
+Release:	11
 License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
