@@ -10,7 +10,7 @@ Summary(fr):	Module Perl Silly::StringMaths
 Summary(it):	Modulo di Perl Silly::StringMaths
 Summary(ja):	Silly::StringMaths Perl ¥â¥¸¥å¡¼¥ë
 Summary(ko):	Silly::StringMaths ÆÞ ¸ðÁÙ
-Summary(no):	Perlmodul Silly::StringMaths
+Summary(nb):	Perlmodul Silly::StringMaths
 Summary(pl):	Modu³ Perla Silly::StringMaths
 Summary(pt):	Módulo de Perl Silly::StringMaths
 Summary(pt_BR):	Módulo Perl Silly::StringMaths
