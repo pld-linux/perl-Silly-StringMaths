@@ -1,3 +1,7 @@
+#
+# Conditional build:
+%bcond_without	tests	# don't perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Silly
 %define		pnam	StringMaths
@@ -21,7 +25,7 @@ Summary(zh_CN):	Silly::StringMaths Perl Ä£¿é
 Name:		perl-Silly-StringMaths
 Version:	0.13
 Release:	10
-License:	GPL
+License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	2b3404284cdf68664ad8027aa223aad8
@@ -46,10 +50,13 @@ liczbach ca³kowitych, zamiast liczb wykorzystuj±c ³añcuchy.
 	INSTALLDIRS=vendor
 %{__make}
 
+%{?with_tests:%{__make} test}
+
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
