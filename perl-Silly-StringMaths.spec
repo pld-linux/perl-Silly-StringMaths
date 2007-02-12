@@ -6,22 +6,22 @@
 %define		pdir	Silly
 %define		pnam	StringMaths
 Summary:	Silly::StringMaths Perl module
-Summary(cs):	Modul Silly::StringMaths pro Perl
-Summary(da):	Perlmodul Silly::StringMaths
-Summary(de):	Silly::StringMaths Perl Modul
-Summary(es):	MÛdulo de Perl Silly::StringMaths
-Summary(fr):	Module Perl Silly::StringMaths
-Summary(it):	Modulo di Perl Silly::StringMaths
-Summary(ja):	Silly::StringMaths Perl •‚•∏•Â°º•Î
-Summary(ko):	Silly::StringMaths ∆ﬁ ∏¡Ÿ
-Summary(nb):	Perlmodul Silly::StringMaths
-Summary(pl):	Modu≥ Perla Silly::StringMaths
-Summary(pt):	MÛdulo de Perl Silly::StringMaths
-Summary(pt_BR):	MÛdulo Perl Silly::StringMaths
-Summary(ru):	Ìœƒ’Ãÿ ƒÃ— Perl Silly::StringMaths
-Summary(sv):	Silly::StringMaths Perlmodul
-Summary(uk):	Ìœƒ’Ãÿ ƒÃ— Perl Silly::StringMaths
-Summary(zh_CN):	Silly::StringMaths Perl ƒ£øÈ
+Summary(cs.UTF-8):   Modul Silly::StringMaths pro Perl
+Summary(da.UTF-8):   Perlmodul Silly::StringMaths
+Summary(de.UTF-8):   Silly::StringMaths Perl Modul
+Summary(es.UTF-8):   M√≥dulo de Perl Silly::StringMaths
+Summary(fr.UTF-8):   Module Perl Silly::StringMaths
+Summary(it.UTF-8):   Modulo di Perl Silly::StringMaths
+Summary(ja.UTF-8):   Silly::StringMaths Perl „É¢„Ç∏„É•„Éº„É´
+Summary(ko.UTF-8):   Silly::StringMaths ÌéÑ Î™®Ï§Ñ
+Summary(nb.UTF-8):   Perlmodul Silly::StringMaths
+Summary(pl.UTF-8):   Modu≈Ç Perla Silly::StringMaths
+Summary(pt.UTF-8):   M√≥dulo de Perl Silly::StringMaths
+Summary(pt_BR.UTF-8):   M√≥dulo Perl Silly::StringMaths
+Summary(ru.UTF-8):   –ú–æ–¥—É–ª—å –¥–ª—è Perl Silly::StringMaths
+Summary(sv.UTF-8):   Silly::StringMaths Perlmodul
+Summary(uk.UTF-8):   –ú–æ–¥—É–ª—å –¥–ª—è Perl Silly::StringMaths
+Summary(zh_CN.UTF-8):   Silly::StringMaths Perl Ê®°Âùó
 Name:		perl-Silly-StringMaths
 Version:	0.13
 Release:	11
@@ -38,9 +38,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Silly::StringMaths provides support for basic integer mathematics,
 using strings rather than numbers.
 
-%description -l pl
-Silly::StringMaths umoøliwia wykonywanie operacji matematycznych na
-liczbach ca≥kowitych, zamiast liczb wykorzystuj±c ≥aÒcuchy.
+%description -l pl.UTF-8
+Silly::StringMaths umo≈ºliwia wykonywanie operacji matematycznych na
+liczbach ca≈Çkowitych, zamiast liczb wykorzystujƒÖc ≈Ça≈Ñcuchy.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
