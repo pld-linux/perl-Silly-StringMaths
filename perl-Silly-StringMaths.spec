@@ -6,22 +6,22 @@
 %define		pdir	Silly
 %define		pnam	StringMaths
 Summary:	Silly::StringMaths Perl module
-Summary(cs.UTF-8):   Modul Silly::StringMaths pro Perl
-Summary(da.UTF-8):   Perlmodul Silly::StringMaths
-Summary(de.UTF-8):   Silly::StringMaths Perl Modul
-Summary(es.UTF-8):   Módulo de Perl Silly::StringMaths
-Summary(fr.UTF-8):   Module Perl Silly::StringMaths
-Summary(it.UTF-8):   Modulo di Perl Silly::StringMaths
-Summary(ja.UTF-8):   Silly::StringMaths Perl モジュール
-Summary(ko.UTF-8):   Silly::StringMaths 펄 모줄
-Summary(nb.UTF-8):   Perlmodul Silly::StringMaths
-Summary(pl.UTF-8):   Moduł Perla Silly::StringMaths
-Summary(pt.UTF-8):   Módulo de Perl Silly::StringMaths
-Summary(pt_BR.UTF-8):   Módulo Perl Silly::StringMaths
-Summary(ru.UTF-8):   Модуль для Perl Silly::StringMaths
-Summary(sv.UTF-8):   Silly::StringMaths Perlmodul
-Summary(uk.UTF-8):   Модуль для Perl Silly::StringMaths
-Summary(zh_CN.UTF-8):   Silly::StringMaths Perl 模块
+Summary(cs.UTF-8):	Modul Silly::StringMaths pro Perl
+Summary(da.UTF-8):	Perlmodul Silly::StringMaths
+Summary(de.UTF-8):	Silly::StringMaths Perl Modul
+Summary(es.UTF-8):	Módulo de Perl Silly::StringMaths
+Summary(fr.UTF-8):	Module Perl Silly::StringMaths
+Summary(it.UTF-8):	Modulo di Perl Silly::StringMaths
+Summary(ja.UTF-8):	Silly::StringMaths Perl モジュール
+Summary(ko.UTF-8):	Silly::StringMaths 펄 모줄
+Summary(nb.UTF-8):	Perlmodul Silly::StringMaths
+Summary(pl.UTF-8):	Moduł Perla Silly::StringMaths
+Summary(pt.UTF-8):	Módulo de Perl Silly::StringMaths
+Summary(pt_BR.UTF-8):	Módulo Perl Silly::StringMaths
+Summary(ru.UTF-8):	Модуль для Perl Silly::StringMaths
+Summary(sv.UTF-8):	Silly::StringMaths Perlmodul
+Summary(uk.UTF-8):	Модуль для Perl Silly::StringMaths
+Summary(zh_CN.UTF-8):	Silly::StringMaths Perl 模块
 Name:		perl-Silly-StringMaths
 Version:	0.13
 Release:	11
