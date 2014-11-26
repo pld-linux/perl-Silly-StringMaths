@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# don't perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Silly
 %define		pnam	StringMaths
+%include	/usr/lib/rpm/macros.perl
 Summary:	Silly::StringMaths Perl module
 Summary(cs.UTF-8):	Modul Silly::StringMaths pro Perl
 Summary(da.UTF-8):	Perlmodul Silly::StringMaths
@@ -29,8 +29,9 @@ License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	2b3404284cdf68664ad8027aa223aad8
-BuildRequires:	rpm-perlprov >= 4.1-13
+URL:		http://search.cpan.org/dist/Silly-StringMaths/
 BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
