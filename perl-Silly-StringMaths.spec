@@ -4,7 +4,6 @@
 
 %define		pdir	Silly
 %define		pnam	StringMaths
-%include	/usr/lib/rpm/macros.perl
 Summary:	Silly::StringMaths Perl module
 Summary(cs.UTF-8):	Modul Silly::StringMaths pro Perl
 Summary(da.UTF-8):	Perlmodul Silly::StringMaths
